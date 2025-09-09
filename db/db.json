@@ -56,9 +56,11 @@
     "date": "Tue Sep 09 2025 09:12:19 GMT+0300 (שעון ישראל (קיץ))"
   },
   {
+    "id": 10,
     "src": "young-bearded-man-with-striped-shirt.jpg",
     "name": "Nftali",
-    "description": "programmer"
+    "description": "programmer",
+    "date": "Tue Sep 09 2025 11:04:39 GMT+0300 (שעון ישראל (קיץ))"
   },
   {
     "id": 11,
@@ -80,10 +82,5 @@
     "name": "Nftali berger",
     "description": "programmer",
     "date": "Tue Sep 09 2025 09:31:30 GMT+0300 (שעון ישראל (קיץ))"
-  },
-  {
-    "src": "young-bearded-man-with-striped-shirt.jpg",
-    "name": "Nftali",
-    "description": "programmer"
   }
 ]

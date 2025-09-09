@@ -1,4 +1,4 @@
-import {getPosts,getPostsById,addPosts,updatePost} from '../DAL/dal.js';
+import {getPosts,getPostsById,addPosts,updatePost,deletePost} from '../DAL/dal.js';
 
 export  async function getAllPosts(req,res) {
     const posts = await getPosts();
@@ -32,4 +32,11 @@ export async function updatePosts(req, res) {
   if (!updated) return res.status(404).send("post not found");
   res.json(updated);
   
+}
+
+export async function deletePosts(req, res) {
+  const id = Number(req.params.id);
+  const deleted = await deletePost(id);
+  if (!deleted) return res.status(404).send('post not found');
+  res.send("deleted");
 }
